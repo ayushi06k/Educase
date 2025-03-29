@@ -1,0 +1,84 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+    margin: 0;
+  }
+  
+  /* Main Container */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* Login Box */
+  .login-box {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 350px;  /* Same width */
+    min-height: 750px;  /* Increased height even more */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Keeps content at the top */
+  }
+  
+  /* Heading */
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Brand Styling */
+  .brand {
+    display: block;
+  }
+  
+  /* Description */
+  .description {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Label */
+  .input-label {
+    display: block;
+    font-size: 14px;
+    color: blue;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  /* Input Field */
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* Login Button */
+  .login-btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background: lightgray;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  

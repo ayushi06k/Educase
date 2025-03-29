@@ -1,0 +1,70 @@
+/* Background and Centering */
+.container {
+  display: flex;
+  align-items: center;  /* Center vertically */
+  justify-content: center;  /* Center horizontally */
+  height: 100vh;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+/* Card Styling */
+.card {
+  width: 350px;  /* Keep the same width */
+  min-height: 700px;  /* Increased height */
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;  /* Push content to the bottom */
+}
+
+/* Title */
+.card h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1a1a1a;
+  text-align: left;  /* Align to the left */
+  margin-bottom: 5px; /* Adjust spacing */
+}
+
+/* Text */
+.card p {
+  font-size: 14px;
+  color: #6b7280;
+  text-align: left;  /* Align to the left */
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.create-btn,
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top: 10px;
+}
+
+.create-btn {
+  background-color: #6c3ee7;
+  color: white;
+}
+
+.create-btn:hover {
+  background-color: #5b32c9;
+}
+
+.login-btn {
+  background-color: #d1b7ff;
+  color: black;
+}
+
+.login-btn:hover {
+  background-color: #bfa2e5;
+}
